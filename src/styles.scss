@@ -1,0 +1,13 @@
+@import './materialize/materialize.scss';
+
+@import './sass/_variables.scss';
+
+@import './sass/containers/_navbar.scss';
+@import './sass/containers/_auth.scss';
+
+body {
+  background-color: $light-grey;
+  color: $text-primary;
+  font-size: 1em;
+  font-family: $font-primary;
+}

@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  flex: 1;
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    &.auth {
+      background-color: rgb(238, 238, 238);
+      border: 1px solid $text-secondary;
+      border-radius: 4px;
+    }
+  }
+}
